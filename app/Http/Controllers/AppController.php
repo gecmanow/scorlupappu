@@ -179,7 +179,7 @@ class AppController extends Controller
             'name' => 'Имя',
             'phone' => 'Телефон',
             'g-recaptcha-response' => 'reCaptcha'
-        ])->validateWithBag('order');
+        ])->validateWithBag('weightCalc');
 
         $name = $request->input('name');
         $phone = $request->input('phone');
@@ -215,7 +215,7 @@ class AppController extends Controller
             'name' => 'Имя',
             'phone' => 'Телефон',
             'g-recaptcha-response' => 'reCaptcha'
-        ])->validateWithBag('order');
+        ])->validateWithBag('callback');
 
         $name = $request->input('name');
         $phone = $request->input('phone');

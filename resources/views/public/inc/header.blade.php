@@ -51,7 +51,7 @@
                     <div class="header__phone">
                         <a href="tel:88002500420">8-800-250-04-20</a>
                     </div>
-                    <a href="/feedback?segment=call_request" data-toggle="modal"
+                    <a href="#" data-toggle="modal"
                        data-target="#callback"><button class="header__callback-link">ЗАКАЖИТЕ ЗВОНОК</button></a>
                 </div>
             </div>
