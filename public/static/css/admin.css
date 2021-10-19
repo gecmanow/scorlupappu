@@ -1,0 +1,13 @@
+#powered_by {
+    margin-top: 20px;
+    border-top: 2px solid black;
+    font-style: italic;
+}
+td {
+    padding: 5px 10px;
+    border: 1px solid #EEE;
+}
+
+td span {width: 150px; display: inline-block}
+
+input[type=text] {width: 70%}
