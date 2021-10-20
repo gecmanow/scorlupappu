@@ -3,6 +3,7 @@
         <meta charset="utf-8" />
         <title>Теплострой - специализированная компания</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="yandex-verification" content="c87268e5ba71b290" />
         <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="static/css/app.css" />
         <script src="/static/js/jquery-2.1.4.min.js"></script>
