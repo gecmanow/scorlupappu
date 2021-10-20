@@ -1,4 +1,4 @@
-<form action="{{ route('order') }}" method="post" enctype="multipart/form-data">
+<form action="{{ route('order') }}" method="post" class="form-col">
     {{ csrf_field() }}
     @if ($errors->order->any())
         @foreach ($errors->order->all() as $error)
@@ -9,6 +9,6 @@
     <input type="text" name="phone" placeholder="Номер телефона*" required="required" />
     <input type="text" name="city" placeholder="Город доставки" />
     <p class="tip">* поля обязательны к заполнению</p>
-    {!! app('captcha')->render(); !!}
+    {!! NoCaptcha::display() !!}
     <button class="send">Отправить</button>
 </form>

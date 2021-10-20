@@ -16,6 +16,7 @@
     @include('public.inc.modal-success')
     @include('public.inc.modal-image')
     @include('public.inc.modal-order')
+    @stack('captcha')
     @include('public.inc.scripts')
 
     </body>

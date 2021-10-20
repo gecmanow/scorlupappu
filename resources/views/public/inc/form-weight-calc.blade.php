@@ -26,10 +26,14 @@
     <p>* поля обязательны к заполнению</p>
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12 btn-send">
-            {!! app('captcha')->render(); !!}
+            {!! NoCaptcha::display() !!}
             <a href="#success">
                 <button class="send">Отправить</button>
             </a>
         </div>
     </div>
 </form>
+
+@push('captcha')
+    {!! NoCaptcha::renderJs() !!}
+@endpush

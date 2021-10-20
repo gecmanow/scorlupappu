@@ -1,10 +1,10 @@
 <?php
 
-namespace AlbertCht\InvisibleReCaptcha\Facades;
+namespace Anhskohbo\NoCaptcha\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class InvisibleReCaptcha extends Facade
+class NoCaptcha extends Facade
 {
     /**
      * Get the registered name of the component.

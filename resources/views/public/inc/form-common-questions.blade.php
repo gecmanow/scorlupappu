@@ -1,4 +1,4 @@
-<form action="{{ route('commonQuestion') }}" method="post">
+<form action="{{ route('commonQuestion') }}" method="post" class="form-col">
     {{ csrf_field() }}
     @if ($errors->commonQuestion->any())
         @foreach ($errors->commonQuestion->all() as $error)
@@ -14,7 +14,7 @@
         </div>
     </div>
     <p class="tip">* поля обязательны к заполнению</p>
-    {!! app('captcha')->render(); !!}
+    {!! NoCaptcha::display() !!}
     <a href="#success">
         <button class="send">Отправить</button>
     </a>

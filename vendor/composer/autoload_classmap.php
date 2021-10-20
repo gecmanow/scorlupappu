@@ -6,9 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'AlbertCht\\InvisibleReCaptcha\\Facades\\InvisibleReCaptcha' => $vendorDir . '/albertcht/invisible-recaptcha/src/Facades/InvisibleReCaptcha.php',
-    'AlbertCht\\InvisibleReCaptcha\\InvisibleReCaptcha' => $vendorDir . '/albertcht/invisible-recaptcha/src/InvisibleReCaptcha.php',
-    'AlbertCht\\InvisibleReCaptcha\\InvisibleReCaptchaServiceProvider' => $vendorDir . '/albertcht/invisible-recaptcha/src/InvisibleReCaptchaServiceProvider.php',
+    'Anhskohbo\\NoCaptcha\\Facades\\NoCaptcha' => $vendorDir . '/anhskohbo/no-captcha/src/Facades/NoCaptcha.php',
+    'Anhskohbo\\NoCaptcha\\NoCaptcha' => $vendorDir . '/anhskohbo/no-captcha/src/NoCaptcha.php',
+    'Anhskohbo\\NoCaptcha\\NoCaptchaServiceProvider' => $vendorDir . '/anhskohbo/no-captcha/src/NoCaptchaServiceProvider.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\AppController' => $baseDir . '/app/Http/Controllers/AppController.php',
@@ -1211,6 +1211,7 @@ return array(
     'Illuminate\\Console\\BufferedConsoleOutput' => $vendorDir . '/laravel/framework/src/Illuminate/Console/BufferedConsoleOutput.php',
     'Illuminate\\Console\\Command' => $vendorDir . '/laravel/framework/src/Illuminate/Console/Command.php',
     'Illuminate\\Console\\Concerns\\CallsCommands' => $vendorDir . '/laravel/framework/src/Illuminate/Console/Concerns/CallsCommands.php',
+    'Illuminate\\Console\\Concerns\\CreatesMatchingTest' => $vendorDir . '/laravel/framework/src/Illuminate/Console/Concerns/CreatesMatchingTest.php',
     'Illuminate\\Console\\Concerns\\HasParameters' => $vendorDir . '/laravel/framework/src/Illuminate/Console/Concerns/HasParameters.php',
     'Illuminate\\Console\\Concerns\\InteractsWithIO' => $vendorDir . '/laravel/framework/src/Illuminate/Console/Concerns/InteractsWithIO.php',
     'Illuminate\\Console\\ConfirmableTrait' => $vendorDir . '/laravel/framework/src/Illuminate/Console/ConfirmableTrait.php',
@@ -2124,9 +2125,12 @@ return array(
     'Laravel\\Sail\\SailServiceProvider' => $vendorDir . '/laravel/sail/src/SailServiceProvider.php',
     'Laravel\\Sanctum\\Contracts\\HasAbilities' => $vendorDir . '/laravel/sanctum/src/Contracts/HasAbilities.php',
     'Laravel\\Sanctum\\Contracts\\HasApiTokens' => $vendorDir . '/laravel/sanctum/src/Contracts/HasApiTokens.php',
+    'Laravel\\Sanctum\\Exceptions\\MissingScopeException' => $vendorDir . '/laravel/sanctum/src/Exceptions/MissingScopeException.php',
     'Laravel\\Sanctum\\Guard' => $vendorDir . '/laravel/sanctum/src/Guard.php',
     'Laravel\\Sanctum\\HasApiTokens' => $vendorDir . '/laravel/sanctum/src/HasApiTokens.php',
     'Laravel\\Sanctum\\Http\\Controllers\\CsrfCookieController' => $vendorDir . '/laravel/sanctum/src/Http/Controllers/CsrfCookieController.php',
+    'Laravel\\Sanctum\\Http\\Middleware\\CheckForAnyScope' => $vendorDir . '/laravel/sanctum/src/Http/Middleware/CheckForAnyScope.php',
+    'Laravel\\Sanctum\\Http\\Middleware\\CheckScopes' => $vendorDir . '/laravel/sanctum/src/Http/Middleware/CheckScopes.php',
     'Laravel\\Sanctum\\Http\\Middleware\\EnsureFrontendRequestsAreStateful' => $vendorDir . '/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php',
     'Laravel\\Sanctum\\NewAccessToken' => $vendorDir . '/laravel/sanctum/src/NewAccessToken.php',
     'Laravel\\Sanctum\\PersonalAccessToken' => $vendorDir . '/laravel/sanctum/src/PersonalAccessToken.php',

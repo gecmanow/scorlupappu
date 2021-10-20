@@ -10,7 +10,7 @@
         <input type="text" name="name" placeholder="Ваше имя*" required="required" />
         <input type="text" name="phone" placeholder="Номер телефона*" required="required" />
         <p>* поля обязательны к заполнению</p>
-        {!! app('captcha')->render(); !!}
+        {!! NoCaptcha::display() !!}
         <a href="#success">
             <button class="send">Отправить</button>
         </a>

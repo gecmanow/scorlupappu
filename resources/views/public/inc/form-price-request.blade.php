@@ -1,4 +1,4 @@
-<form action="{{ route('priceRequest') }}" method="post">
+<form action="{{ route('priceRequest') }}" method="post" class="form-col">
     {{ csrf_field() }}
     @if ($errors->priceRequest->any())
         @foreach ($errors->priceRequest->all() as $error)
@@ -9,8 +9,8 @@
     <input type="text" name="phone" placeholder="Номер телефона*" required="required" />
     <input type="text" name="email" placeholder="Email*" required="required" />
     <input type="text" name="company" placeholder="Компания" />
-    <p>* поля обязательны к заполнению</p>
-    {!! app('captcha')->render(); !!}
+    <p class="tip">* поля обязательны к заполнению</p>
+    {!! NoCaptcha::display() !!}
     <a href="#success">
         <button class="send">Отправить</button>
     </a>
