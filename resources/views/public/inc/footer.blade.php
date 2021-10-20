@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-9">
                         <p>© 2015 ООО СК «ТеплоСтрой», 660048, Красноярск ул. Маерчака 101, стр.4</p>
-                        <p>E-mail: <a href="mailto:ppu1@ck-tct.ru">ppu1@ck-tct.ru</a></p>
+                        <p>E-mail: <a href="mailto:ppu4@ck-tct.ru">ppu4@ck-tct.ru</a></p>
                         <a href="http://ck-tct.ru/ " target="_blank"><button>ПЕРЕЙТИ НА САЙТ КОМПАНИИ</button></a>
                     </div>
                     <div class="col-md-3">

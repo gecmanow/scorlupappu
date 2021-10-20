@@ -49,7 +49,7 @@
                 <div class="header__callback col-md-3 col-sm-4">
                     <p class="header__email">г. Красноярск</p>
                     <div class="header__phone">
-                        <a href="tel:88002500420">8-800-250-04-20</a>
+                        <a href="tel:+73912212708">8 (391) 221-27-08</a>
                     </div>
                     <a href="#" data-toggle="modal"
                        data-target="#callback"><button class="header__callback-link">ЗАКАЖИТЕ ЗВОНОК</button></a>
