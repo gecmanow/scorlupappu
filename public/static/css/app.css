@@ -1273,6 +1273,27 @@ footer .creator a img {
     align-items: center;
 }
 
+.form-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.sizes .g-recaptcha {
+    margin: 0 5px 0 0;
+}
+@media (max-width: 750px) {
+    .form-row {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .sizes .g-recaptcha {
+        margin: 0 0 5px 0;
+    }
+}
+
 @media (max-width: 1199px) {
     .header__menu ul li:nth-child(4) {
         margin-right: 2em;
