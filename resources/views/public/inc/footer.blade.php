@@ -9,8 +9,8 @@
                         <a href="http://ck-tct.ru/ " target="_blank"><button>ПЕРЕЙТИ НА САЙТ КОМПАНИИ</button></a>
                     </div>
                     <div class="col-md-3">
-                        <!--<p class="creator"> Создание сайта <a href="http://www.alente.ru/" target="_blank"><img src="/static/images/logo_alente.png" alt="" /></a>
-                        </p>-->
+                        <p class="creator"> Создание сайта <a href="http://www.alente.ru/" target="_blank"><img src="/static/images/logo_alente.png" alt="" /></a>
+                        </p>
                     </div>
                 </div>
             </section>
