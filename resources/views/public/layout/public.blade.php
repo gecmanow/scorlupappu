@@ -23,6 +23,5 @@
     @include('public.inc.modal-order')
     @stack('captcha')
     @include('public.inc.scripts')
-
     </body>
 </html>
