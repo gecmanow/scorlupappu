@@ -22,6 +22,7 @@
     @include('public.inc.modal-image')
     @include('public.inc.modal-order')
     @stack('captcha')
+    @include('public.inc.multi-button')
     @include('public.inc.scripts')
     </body>
 </html>
